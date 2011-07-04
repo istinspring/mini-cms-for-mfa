@@ -1,0 +1,583 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Google AdSense Ad Formats</title>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost +
+        "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script src="AdFormats_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var trackingEnabled = true;
+
+    var pageTracker = _gat._getTracker("UA-18006-1");
+    setUpTracker(pageTracker, "/adsense/");
+
+    if (trackingEnabled) {
+      pageTracker._trackPageview();
+    }
+
+    function setTracker(tracker, cookiePath) {
+      pageTracker = tracker;
+      setUpTracker(pageTracker, cookiePath);
+    }
+
+    function sendTrackPageView(pageName) {
+      if (trackingEnabled) {
+        try {
+          pageTracker._trackPageview("/" + pageName);
+        } catch (exception) {
+          // Ignore
+        }
+      }
+    }
+
+    function sendTrackEvent(category, action, label, value) {
+      if (trackingEnabled) {
+        try {
+          pageTracker._trackEvent(category, action, label, value);
+        } catch (exception) {
+          // Ignore
+        }
+      }
+    }
+
+    function sendTrackVar(customVar) {
+      if (trackingEnabled) {
+        try {
+          pageTracker._setVar(customVar);
+        } catch (exception) {
+          // Ignore
+        }
+      }
+    }
+
+    function sendTrackCustomVar(index, name, value, scope) {
+      if (trackingEnabled) {
+        try {
+          pageTracker._setCustomVar(index, name, value, scope);
+        } catch (exception) {
+          // Ignore
+        }
+      }
+    }
+
+    function setUpTracker(tracker, cookiePath) {
+      tracker._setCookiePath(cookiePath);
+      tracker._setAllowAnchor(true);
+      tracker._setCampNameKey("subid");
+      tracker._setCampMediumKey("medium");
+      tracker._setCampSourceKey("sourceid");
+      tracker._setCampTermKey("term");
+      tracker._setCampContentKey("content");
+      tracker._setCampIdKey("u_id");
+      tracker._setCampNOKey("nooverride");
+    }
+  </script>
+
+<link rel="stylesheet" type="text/css" href="AdFormats_files/3864939285-LTR.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/2307531937-style.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/596854136-tabnavbar.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/2269670069-submenu.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/3354918148-reports.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/2283875027-pager.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/3703936171-tax.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/552546691-overviewreport.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/343894648-star.css">
+<link rel="stylesheet" type="text/css" href="AdFormats_files/3255812182-adnetworks.css">
+<style type="text/css"> body { margin-top: 0; } </style>
+
+<script type="text/javascript">
+      function AS_windowOnLoad(handler) {
+        var prev = window.onload;
+        if (prev) {
+          window.onload = function() { prev(); handler(); };
+        } else {
+          window.onload = handler;
+        }
+      }
+    </script>
+
+<style type="text/css">
+body {font-size:83%;padding:1em 0.5em;margin:0;font-family:Arial, Helvetica, sans-serif;}
+h1 {margin:0;font-weight:normal;font-size:1.75em;}
+h2 {font-weight:normal;font-size: 1.35em}
+img {border:0;}
+td {font-size:83%}
+#breadcrumbs {padding:0.5em;margin:0.5em 0 1em;background:#e6f3ff;border:1px solid #ddd;}
+.bluelink {color:#0000cc;}
+#footer {margin-top:2em;border-top:1px solid #ccc;padding:1em 0;color:#666;text-align:center;}
+#infotable {border-collapse:}
+#infotable p {margin:1em 0;}
+#infotable td.menu {border:1px solid #ccc;border-bottom:0;padding:0.75em 0.5em;background:#eee;width:170px;height:40px;cursor:pointer;}
+#infotable td.menu a {display:block;}
+#infotable td.active {border-right:#fff 1px solid;background:#fff;}
+#infotable td.active a {color:#000;text-decoration:none;}
+div.subheader {font-weight:bold;margin-bottom:2px;font-size:120%}
+.headerdiv{width:740px; text-align:left;}
+</style>
+<script type="text/javascript">
+function setTitleBreadcrumb(title) {
+  document.title = title;
+  document.getElementById("crumbText").innerHTML = title;
+}
+function checkEmptySearch(box) {
+  if (/\S/.test(document.getElementById("helpSearchTextBox").value)) {
+    box.action="https://www.google.com/support/adsense/bin/search.py"
+  } else {
+    box.action="https://www.google.com/support/adsense"
+  }
+}
+    </script>
+</head><body><center><div style="width: 740px;" class="rtl-safe-align-left"><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="middle"><td valign="bottom" width="203"><a href="https://www.google.com/adsense/home"><img src="AdFormats_files/adsense_logo.gif" alt="Google AdSense" height="40" width="203" align="left" border="0"></a></td>
+<td><table style="margin-bottom: 5px;" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td valign="bottom"><h4 style="margin-bottom: 4px;"></h4></td>
+<td class="rtl-safe-align-right" nowrap="nowrap" valign="bottom"><form style="margin: 3px 0pt;" action="https://www.google.com/support/adsense/bin/search.py" target="adsense_support" id="adsenseSupportSearchForm" onsubmit="checkEmptySearch(this)"><input id="helpSearchTextBox" name="query" type="text">
+<input value="Search AdSense Help" type="submit">
+<input name="sourceid" value="aso" type="hidden">
+<input name="subid" value="ww-ww-et-search_box" type="hidden">
+<input name="medium" value="link" type="hidden">
+<input name="ctx" value="en_US:frontend" type="hidden">
+—
+<a target="adsense_support" href="https://www.google.com/adsense/support/?sourceid=aso&amp;subid=ww-ww-et-asui&amp;medium=link">Help</a></form></td></tr></tbody></table></td></tr>
+<tr><td colspan="2"><span style="font-size: 85%; margin-top: 5px; padding-left: 5px;"><a href="https://www.google.com/adsense/home">AdSense Home</a>
+&gt;
+<span id="crumbText">Google AdSense Ad Formats</span></span></td></tr></tbody></table>
+
+<script>
+  setTitleBreadcrumb("Google AdSense Ad Formats");
+</script>
+
+<style type="text/css">
+.flash-i {
+	background-image:url('images/dvd-160x600-i.gif');
+	width: 160px;
+	height: 600px;
+}
+
+.flash-abg {
+	background-image:url('images/dvd-160x600-abg.gif');
+	width: 160px;
+	height: 600px;
+}
+
+div.ihover {
+	height:20px;
+  left:135px;
+  position:relative;
+  width:25px;
+  top: -20px;
+}
+</style>
+
+<script type="text/javascript">
+function mouseOver()
+{
+	document.getElementById("flashdiv").className="flash-abg";
+}
+function mouseOut()
+{
+	document.getElementById("flashdiv").className="flash-i";
+}
+</script>
+
+
+<br><h1 style="padding-left: 5px; padding-bottom: 5px;">Google AdSense Ad Formats</h1><br>
+
+  <table width="728" align="center" border="0" cellpadding="2" cellspacing="0">
+      <tbody><tr valign="bottom">
+        <td><p>
+        <a href="#text"><b>Text Ads</b></a> |
+        <a href="#image"><b>Image Ads</b></a> |
+        <a href="#video"><b>Video Ads</b></a> |
+        <a href="#linkunits"><b>Link Units</b></a> |
+        <a href="#flashads"><b>Flash Ads</b></a> |
+        <a href="https://www.google.com/adsense/static/en_US/AdFormats_mobile.html"><b>Mobile Ads</b></a>
+
+        </p></td>
+      </tr>
+      <tr valign="bottom">
+        <td>&nbsp;</td>
+      </tr>
+      <tr valign="bottom">
+        <td><hr noshade="noshade">
+            <b><font size="+1"><a name="text" id="text"></a>Text Ads</font></b>
+            <hr noshade="noshade"></td>
+      </tr>
+      <tr valign="bottom">
+        <td><b>Leaderboard (728 x 90) </b>- <a href="https://www.google.com/adsense/static/en_US/Leaderboard.html">View sample placements</a></td>
+      </tr>
+      <tr>
+        <td><p><a href="https://www.google.com/adsense/static/en_US/Leaderboard.html"><img alt="Leaderboard" src="AdFormats_files/leaderboard.gif" height="90" width="728" border="0"></a></p>        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><b>Banner (468 x 60) </b>- <a href="https://www.google.com/adsense/static/en_US/Banner.html">View sample placements</a></td>
+      </tr>
+      <tr>
+        <td><table width="728" border="0" cellpadding="2" cellspacing="0">
+            <tbody><tr>
+              <td valign="top" width="63%"><b> </b>                             <a href="https://www.google.com/adsense/static/en_US/Banner.html"><img alt="Banner" src="AdFormats_files/banner.gif" height="60" width="468" border="0"></a><br><a href="https://www.google.com/adsense/static/en_US/Banner.html"><font size="-2">
+              </font></a></td>
+              <td rowspan="4" valign="top" width="37%"><div align="right"><b>Button (125x125) <br>
+                </b></div>                <div align="right"><img src="AdFormats_files/125x125.gif" alt="Button" height="125" width="125"></div></td>
+            </tr>
+            <tr>
+              <td valign="top" width="63%">&nbsp;</td>
+            </tr>
+            <tr>
+              <td valign="top"><b>Half Banner (234x60) </b></td>
+            </tr>
+            <tr>
+              <td valign="top"><img alt="Half Banner" src="AdFormats_files/234x60.gif" height="60" width="234" border="0"></td>
+            </tr>
+        </tbody></table></td>
+      </tr>
+      <tr valign="bottom">
+        <td>&nbsp;</td>
+      </tr>
+      <tr valign="bottom">
+        <td><table width="728" border="0" cellpadding="2" cellspacing="0">
+          <tbody><tr>
+            <td width="50%"><div align="center"><b>Skyscraper (120x600)  </b>- <a href="https://www.google.com/adsense/static/en_US/Skyscraper.html">View sample placements</a></div></td>
+            <td width="50%"><div align="center"><b>Wide Skyscraper (160x600) </b>- <a href="https://www.google.com/adsense/static/en_US/WideSkyscraper.html">View sample placements</a></div></td>
+          </tr>
+          <tr>
+            <td width="50%"><div align="center"><a href="https://www.google.com/adsense/static/en_US/Skyscraper.html"><img alt="Skyscraper" src="AdFormats_files/skyscraper.gif" height="600" width="120" border="0"></a></div></td>
+            <td width="50%"><div align="center"><a href="https://www.google.com/adsense/static/en_US/WideSkyscraper.html"><img src="AdFormats_files/160x600.gif" alt="Wide Skyscraper" height="600" width="160" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td width="50%">&nbsp;</td>
+            <td width="50%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="bottom" width="50%"><div align="center"><b>Small Rectangle (180x150)</b></div></td>
+            <td width="50%"><div align="center"><b>Vertical Banner (120 x 240)</b></div></td>
+          </tr>
+          <tr>
+            <td valign="top" width="50%"><div align="center"><img alt="Small Rectangle" src="AdFormats_files/180x150.gif" height="150" width="180" border="0"></div></td>
+            <td valign="top" width="50%"><div align="center"><img src="AdFormats_files/120x240.gif" alt="Vertical Banner" height="240" width="120"></div></td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+      <tr valign="bottom">
+        <td><table width="728" border="0" cellpadding="2" cellspacing="0">
+          <tbody><tr>
+            <td width="50%">&nbsp;</td>
+            <td width="50%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="50%"><div align="center"><strong>Small Square (200 x 200)</strong></div></td>
+            <td valign="bottom" width="50%"><div align="right"><b>Square (250 x 250) </b></div></td>
+          </tr>
+          <tr>
+            <td valign="top" width="50%"><div align="center"><img src="AdFormats_files/200x200_text.gif" alt="200x200" border="0"><br>
+            </div></td>
+            <td valign="top" width="50%"><div align="right"><img alt="Square" src="AdFormats_files/250x250.gif" height="250" width="250" border="0"></div></td>
+          </tr>
+		<tr>
+            <td width="50%">&nbsp;</td>
+            <td width="50%">&nbsp;</td>
+          </tr>
+		  <tr>
+		    <td width="50%"><strong>Medium Rectangle (300 x 250)</strong> - <a href="https://www.google.com/adsense/static/en_US/Inline.html">View sample placements</a></td>
+              <td valign="bottom" width="50%"><div align="right"><b>
+			  Large Rectangle (336 x 280) </b> - <a href="https://www.google.com/adsense/static/en_US/LargeRectangle.html">View sample placements</a>
+			 </div></td>
+		  </tr>
+          <tr>
+            <td valign="top" width="50%"><a href="https://www.google.com/adsense/static/en_US/Inline.html"><img alt="Medium Rectangle" src="AdFormats_files/inline_rectangle.gif" height="250" width="300" border="0"></a><br>            </td>
+            <td valign="top" width="50%"><div align="right"><a href="https://www.google.com/adsense/static/en_US/LargeRectangle.html"><img src="AdFormats_files/336x280.gif" alt="Large Rectangle" height="280" width="336" border="0"></a></div></td>
+          </tr><tr>
+            <td width="50%">&nbsp;</td>
+            <td width="50%">&nbsp;</td>
+          </tr>
+
+        </tbody></table></td>
+      </tr>
+      <tr valign="bottom">
+        <td>&nbsp;</td>
+      </tr>
+      <tr valign="bottom">
+        <td><hr noshade="noshade">
+            <b><font size="+1"><a name="image" id="image"></a>Image Ads</font></b>
+            <hr noshade="noshade"></td>
+      </tr>
+      <tr>
+        <td><b>Leaderboard (728 x 90)</b></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.com/adsense/static/en_US/Leaderboard.html"><img alt="Leaderboard" src="AdFormats_files/leaderboard_img.jpg" height="90" width="728" border="0"></a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><b>Banner (468 x 60)</b></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.google.com/adsense/static/en_US/Banner.html"><img alt="Banner" src="AdFormats_files/banner_img.jpg" height="60" width="468" border="0"></a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="728" border="0" cellpadding="2" cellspacing="0">
+          <tbody><tr>
+            <td width="33%"><div align="center"><b>Skyscraper (120x600)</b></div></td>
+            <td width="33%"><div align="center"><b>Wide Skyscraper (160x600)</b></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="https://www.google.com/adsense/static/en_US/Skyscraper.html"><img alt="Skyscraper" src="AdFormats_files/skyscraper_img.jpg" height="600" width="120" border="0"></a></div></td>
+            <td><div align="center"><a href="https://www.google.com/adsense/static/en_US/WideSkyscraper.html"><img alt="Wide Skyscraper" src="AdFormats_files/wideskyscraper_img.jpg" height="600" width="160" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Small Square (200 x 200)</b></td>
+            <td><b>Square (250 x 250)</b></td>
+          </tr>
+          <tr>
+            <td valign="top"><img alt="200x200" src="AdFormats_files/200x200.jpg" height="200" width="200" border="0"></td>
+            <td valign="top"><a href="https://www.google.com/adsense/static/en_US/Inline.html"><img src="AdFormats_files/imagead_250x250.gif" alt="Medium Rectangle" height="250" width="250" border="0"></a></td>
+          </tr>
+          <tr>
+          </tr><tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><strong>Medium Rectangle (300 x 250)</strong></td>
+            <td><strong>Large Rectangle (336 x 280)</strong></td>
+          </tr>
+          <tr>
+            <td valign="top"><a href="https://www.google.com/adsense/static/en_US/Inline.html"></a><a href="https://www.google.com/adsense/static/en_US/Inline.html"><img alt="Medium Rectangle" src="AdFormats_files/300x250_img.jpg" height="250" width="300" border="0"></a></td>
+            <td><a href="https://www.google.com/adsense/static/en_US/LargeRectangle.html"><img src="AdFormats_files/imagead_336x280.gif" alt="Large Rectangle" height="280" width="336" border="0"></a></td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+      <tr valign="bottom">
+        <td>&nbsp;</td>
+      </tr>
+	    <tr>
+        <td valign="top">&nbsp;</td>
+      </tr>
+	  <tr>
+        <td valign="top"><hr noshade="noshade">
+            <b><font size="+1"><a name="themed" id="video"></a>Video Ads </font>(for instructions on how to enable video ads, visit our <a href="http://www.google.com/adsense/support/bin/answer.py?answer=40044">Help Center</a>)</b>
+            <hr noshade="noshade"></td>
+      </tr>
+
+	  <tr><td>
+	  <table width="100%" border="0">
+	    <tbody><tr valign="bottom">
+
+      <td colspan="2"><strong>Leaderboard (728x90)</strong><br>
+      	<img src="AdFormats_files/exampleLeaderboard.gif"><br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a><br>
+      	&nbsp;
+      </td>
+    </tr>
+	    <tr valign="bottom">
+      <td valign="top"><strong>Skyscraper (120x600)</strong><br>
+      	<img src="AdFormats_files/exampleSkyscraper.gif"><br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a>
+
+      </td>
+      <td valign="top"><strong>Wide skyscraper (160x600)</strong><br>
+      	<img src="AdFormats_files/exampleWideSkyscraper.gif"><br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a><br>&nbsp;
+      </td>
+    </tr>
+          <tr>
+            <td width="47%"><strong>Small Square (200x200) </strong></td>
+            <td width="53%"><strong>Square (250x250) </strong></td>
+
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+		            <tr>
+            <td valign="top"><img src="AdFormats_files/video200x200.jpg" alt="200x200">
+						<br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a>			</td>
+
+            <td valign="top">
+			<img src="AdFormats_files/video250x250.gif" alt="250x250 Video Ad" height="250" width="250">
+			<br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a>			</td>
+          </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+
+                    </tr>
+
+          <tr>
+            <td><strong>Rectangle (300x250) </strong></td>
+            <td><strong>Large Rectangle (336x280) </strong></td>
+          </tr>
+          <tr>
+            <td valign="top"><img src="AdFormats_files/videoinline.gif" alt="300x250 Video Ad" height="250" width="300">
+
+				<br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a></td>
+
+            <td>
+			<img src="AdFormats_files/video336x280.gif" alt="336x280 Video Ad" height="280" width="336">
+			<br><a href="https://www.google.com/adsense/static/en_US/video.html"><font size="-2">View a sample video ad</font></a>			</td>
+          </tr>
+        </tbody></table>
+
+	  </td></tr>
+	  	  <tr><td>&nbsp;</td></tr>
+	        <tr>
+        <td valign="top"><hr noshade="noshade">
+          <b><font size="+1"><a name="adlinks" id="adlinks"></a><a name="linkunits" id="linkunits"></a>Link Units -&nbsp;&nbsp;&nbsp;</font></b><a href="https://www.google.com/adsense/static/en_US/linkunit.html">View sample placements</a>
+          <hr noshade="noshade"></td>
+      </tr>
+
+      <tr>
+        <td valign="top"><table width="728" border="0" cellpadding="2" cellspacing="0">
+          <tbody><tr>
+            <td><div align="center"><b>(120x90) <br>
+        Displays up to 5 links </b></div></td>
+            <td><div align="center"><b>(120x90_4) <br>
+        Displays up to 4 links </b></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="120x90" src="AdFormats_files/120x90.gif" height="90" width="120" border="0"></a><br>
+            </div></td>
+            <td valign="top"><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="120x90" src="AdFormats_files/120x90_4.gif" height="90" width="120" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><div align="center"><b>(160x90) <br>
+        Displays up to 5 links </b></div></td>
+            <td><div align="center"><b>(160x90_4) <br>
+        Displays up to 4 links </b></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="160x90" src="AdFormats_files/160x90.gif" height="90" width="160" border="0"></a><br>
+            </div></td>
+            <td valign="top"><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="160x90" src="AdFormats_files/160x90_4.gif" height="90" width="160" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td><div align="center"><b>(180x90) <br>
+        		Displays up to 5 links </b></div></td>
+            <td><div align="center"><b>(180x90_4) <br>
+       			 Displays up to 4 links </b></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="180x90" src="AdFormats_files/180x90.gif" height="90" width="180" border="0"></a><br>
+            </div></td>
+            <td valign="top"><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="180x90" src="AdFormats_files/180x90_4.gif" height="90" width="180" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td><div align="center"><b>(200x90) <br>
+        Displays up to 5 links </b></div></td>
+            <td><div align="center"><b>(200x90_4) <br>
+        Displays up to 4 links </b></div></td>
+          </tr>
+          <tr>
+            <td><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="200x90" src="AdFormats_files/200x90.gif" height="90" width="200" border="0"></a><br>
+            </div></td>
+            <td valign="top"><div align="center"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="200x90" src="AdFormats_files/200x90_4.gif" height="90" width="200" border="0"></a></div></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><b>(468x15) Displays up to 5 links </b></td>
+          </tr>
+          <tr>
+            <td colspan="2"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="468x15" src="AdFormats_files/468x15.gif" height="15" width="468" border="0"></a></td>
+          </tr>
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><b> (468x15_4) Displays up to 4 links </b></td>
+          </tr>
+          <tr>
+            <td colspan="2"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="468x15" src="AdFormats_files/468x15_4.gif" height="15" width="468" border="0"></a></td>
+          </tr>
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><b>(728x15) Displays up to 5 links </b></td>
+          </tr>
+          <tr>
+            <td colspan="2"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="728x15" src="AdFormats_files/728x15.gif" height="15" width="728" border="0"></a></td>
+          </tr>
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="2"><b>(728x15_4) Displays up to 4 links </b></td>
+          </tr>
+          <tr>
+            <td colspan="2"><a href="https://www.google.com/adsense/static/en_US/linkunit.html"><img alt="728x15" src="AdFormats_files/728x15_4.gif" height="15" width="728" border="0"></a></td>
+          </tr>
+
+
+          <tr>
+          <td colspan="2">
+
+          <br>
+          <hr noshade="noshade">
+            <strong id="flashads">Flash Ads</strong>
+            <hr noshade="noshade">
+
+<p>To see the new attribution, hover your mouse over the lower right portion of the ad below. </p>
+
+<div id="flashdiv" class="flash-i">
+</div>
+
+<div class="ihover" onmouseover="mouseOver()" onmouseout="mouseOut()"> </div>
+
+
+          </td>
+          </tr>
+
+        </tbody></table></td>
+      </tr>
+      <tr>
+        <td valign="top">&nbsp;</td>
+      </tr>
+	  	  	        <tr>
+        <td valign="top">&nbsp;</td>
+      </tr>
+	  <tr><td>
+
+	  </td></tr>
+	        <tr>
+        <td valign="top"></td>
+      </tr>
+</tbody></table>
+
+
+<br>
+<br>
+<p></p>
+<center><span class="copy"><bdo dir="ltr">© 2011 Google -</bdo>
+<a target="adsense_support" href="http://adsense.blogspot.com/?utm_source=aso&amp;utm_campaign=ww-en_US-et-asfe&amp;utm_medium=link">AdSense Blog</a>
+-
+<a target="adsense_support" href="http://www.google.com/support/forum/p/adsense?hl=en&amp;utm_sourceid=aso&amp;utm_campaign=ww-en_US-et-frontend_other&amp;utm_medium=link">AdSense Forum</a>
+-
+
+<a target="adsense_support" href="http://www.google.com/privacy.html">Privacy Policy</a>
+-
+<a target="adsense_support" href="https://www.google.com/adsense/localized-terms">Terms &amp; Conditions</a>
+-
+<a target="adsense_support" href="https://www.google.com/adsense/policies?hl=en_US">Program Policies</a></span></center>
+</div></center></body></html>

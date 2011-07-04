@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+{% block description %}{{ article.description }}{% endblock %}
+{% block keywords%}{{ article.get_keywords|join:', ' }}{% endblock %}
+
+{% block content %}
+	{% if article %}
+	<h1><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></h1>
+	<div class="intext_ads"><img src="{{ MEDIA_URL }}common_img/testsense/inline_rectangle.gif" /></div>
+	{% autoescape off %}{{ article.content }}{% endautoescape %}
+	<div class="descr">
+		{{ article.pub_date }} | in <a href="{{ article.category.get_absolute_url }}">{{ article.category.title }}</a>
+	</div>
+	{% else %}
+	<h3>Not found</h3>
+	{% endif %}
+{% endblock %}
