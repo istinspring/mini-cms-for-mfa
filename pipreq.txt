@@ -1,5 +1,4 @@
 django-grappelli
 django-tinymce
 django-filebrowser
-django-adzone
 pytils

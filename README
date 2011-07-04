@@ -1,1 +1,7 @@
-Common django project.
+Mini-cms for MFA sites.
+
+installation:
+
+1) clone repo to server
+2) install apps form piprequire.txt
+3) run python manage.py syncdb

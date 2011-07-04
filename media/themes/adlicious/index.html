@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
+	<br />
+	{% autoescape off %}{{ mfa_site.text }}{% endautoescape %}
+
 	{% for article in articles %}
 	<h1><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></h1>
 	<p>{{ article.description }}</p>
